@@ -23,23 +23,23 @@
     <EditText
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_margin="8dp"
         android:layout_weight="10"
         android:id="@+id/editText1"
         android:inputType="textCapWords"
+        android:background="@null"
         android:hint="@string/location_label"
         android:ems="10"
         >
 
     </EditText>
 
-    <Button
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_height="match_parent"
         android:layout_width="wrap_content"
+        android:layout_gravity="center"
         android:layout_weight="10"
-        android:text="Search"
-        android:textColor="@android:color/white"
+        android:src="@drawable/ic_search_white_24dp"
         android:background="@color/colorAccent"
         android:id="@+id/button1"
         android:onClick="geoLocate"
